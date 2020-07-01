@@ -1,0 +1,197 @@
+.theBigContainer{
+  background-color: #EFF0F4;
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  height: 625px;
+  margin: 15% 0 15% 0;
+  width: 100%;
+
+
+}
+.theNavbar{
+  background-color: #EFF0F4;
+  width: 18%;
+  height: 575px;
+  margin: 25px 25px 25px 25px;
+}
+.addressBlocks{
+  border: 1px solid rgb(224, 227, 232);
+  margin:25px 5% 25px 5%;
+}
+/* .navbar-navdiv{
+  width: 100%;
+  margin-bottom: 50%;
+} */
+.nav-item{
+  font-size: 13px;
+  color: red;
+}
+ul{
+  list-style-type: none;
+}
+table{
+  box-shadow: 1px 1px 2px 2px rgb(241, 249, 250);
+  width: 100%;
+}
+.addressContainer{
+  border: 1px solid rgb(224, 227, 232);
+  box-shadow: 1px 1px 2px 2px rgb(240, 218, 229);
+  background-color: white;
+  margin:0 5% 0 0;
+  padding: 3%;
+  width: 70%;
+  position: absolute;
+  /* text-align: center; */
+}
+th,td{
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+th{
+  color: dimgrey;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1vw;
+  padding-bottom: 0;
+  background-color: #F5F5F5;
+}
+td{
+  padding: 20px;
+  font-size: 30px;
+  font-size: 1vw;
+}
+
+
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.addAddressButton{
+  margin-top: 3%;
+  text-align: right;
+
+}
+.addressButton{
+  background-color: #16849B;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  width: 35%;
+  height: 40px;
+  cursor: pointer;
+}
+/* .addAddressButton{
+  margin-left: 80%;
+} */
+
+.labelColumn{
+   color:dimgray;
+    font-size: 15px;
+    font-weight:500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+
+  }
+  /* styling inputs, select elements and textarea */
+   select,input{
+     border: 3px solid rgb(248, 246, 246);
+     border-radius: 4px;
+     box-sizing: border-box;
+    color: dimgray;
+    height: 45px;
+    padding: 6px;
+    width: 100%;
+}
+.inputColumn{
+  width: 100%;
+}
+.addressBook{
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px rgb(240, 218, 229);
+  /* margin:3% 10% 3% 15%; */
+  display: none;
+  padding: 2% 4% 2% 4%;
+  position: absolute;
+  /* display: inline-block; */
+  width: 70%;
+  white-space: nowrap;
+}
+.firstDivisionNameNumber{
+  display: inline-block;
+  width: 45%;
+}
+#firstDiv{
+  position: relative;
+  vertical-align: top;
+
+}
+#secondDiv{
+  margin-left: 10%;
+}
+.cancelOrSaveButton{
+  /* display: inline-block; */
+  /* float: right; */
+  margin-top: 2%;
+  /* padding: 0; */
+  text-align: right;
+
+
+}
+.cancelButton{
+  background-color: #DADADA;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: dimgrey;
+  height: 2.5em;
+  margin-right: 2%;
+  width:20%;
+
+
+}
+.saveButton{
+  background-color: #D0611E;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  height: 2.5em;
+  width: 20%;
+}
+@media screen and (max-width:800px)  {
+  .theNavbar{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0;
+    /* text-align: center; */
+  }
+  .theBigContainer{
+    display: block;
+    height: 1000px;
+    /* margin: 0; */
+    padding: 0;
+    /* position: relative; */
+  }
+  .addressBlocks{
+    /* margin: 5%; */
+
+  }
+  .addressContainer{
+    margin: 0;
+    width: 90%;
+  }
+  .addressBook{
+    margin:0;
+    width: 90%;
+  }
+  .firstDivisionNameNumber{
+    display:block;
+    width: 100%;
+  }
+  #secondDiv{
+    margin-left: 0;
+  }
+}
